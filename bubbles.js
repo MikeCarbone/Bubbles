@@ -5,6 +5,7 @@
     const borderRadius = 50;
     const opacity = .05;
     const containerClass = 'main';
+
     const container = document.getElementsByClassName(containerClass)[0];
     container.style.position = 'relative';
 
@@ -27,8 +28,6 @@
         dot.dataset.rellaxSpeed = speed;
         container.appendChild(dot);
     }
-
-
 
     function getRandomInt(min, max) {
         min = Math.ceil(min);
